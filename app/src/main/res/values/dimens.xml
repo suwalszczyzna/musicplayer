@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="guidline_margin">32dp</dimen>
+    <dimen name="margin_between_center_player_buttons">8dp</dimen>
+    <dimen name="smaller_player_buttons">24dp</dimen>
+    <dimen name="bigger_player_buttons">48dp</dimen>
+
+</resources>
