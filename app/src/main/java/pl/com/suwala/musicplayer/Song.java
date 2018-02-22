@@ -9,18 +9,21 @@ public class Song {
     private String author;
     private String album;
     private int albumCover;
+    private boolean imageStatus;
 
-    public Song(String title, String author, String album, int albumCover) {
+    Song(String title, String author, String album, int albumCover) {
         this.title = title;
         this.author = author;
         this.album = album;
         this.albumCover = albumCover;
+
     }
 
-    public Song(String title, String author, String album) {
+    Song(String title, String author, String album) {
         this.title = title;
         this.author = author;
         this.album = album;
+        this.albumCover = R.drawable.empty_cover;
     }
 
     public String getTitle() {
@@ -31,7 +34,7 @@ public class Song {
         this.title = title;
     }
 
-    public String getAuthor() {
+    String getAuthor() {
         return author;
     }
 
@@ -47,13 +50,14 @@ public class Song {
         this.album = album;
     }
 
-    public int getAlbumCover() {
+    int getAlbumCover() {
         return albumCover;
     }
 
     public void setAlbumCover(int albumCover) {
         this.albumCover = albumCover;
     }
+
 }
 
 
