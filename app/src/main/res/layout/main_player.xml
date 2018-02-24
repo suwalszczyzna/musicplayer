@@ -166,7 +166,7 @@
         app:layout_constraintGuide_end="@dimen/guidline_margin" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/cover_image"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="24dp"
@@ -185,10 +185,10 @@
         android:layout_marginTop="16dp"
         android:drawablePadding="16dp"
         android:drawableStart="@drawable/ic_002_musical_note"
-        android:text="Beautiful day"
+        android:text="@string/song_title"
         android:textAppearance="@style/SongTitle"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintStart_toStartOf="@+id/cover_image"
+        app:layout_constraintTop_toBottomOf="@+id/cover_image" />
 
     <TextView
         android:id="@+id/tv_artistName"
@@ -197,7 +197,7 @@
         android:layout_marginTop="16dp"
         android:drawablePadding="16dp"
         android:drawableStart="@drawable/ic_004_microphone"
-        android:text="U2"
+        android:text="@string/artist"
         app:layout_constraintStart_toStartOf="@+id/tv_songTitle"
         app:layout_constraintTop_toBottomOf="@+id/tv_songTitle" />
 
@@ -208,7 +208,7 @@
         android:layout_marginTop="8dp"
         android:drawablePadding="16dp"
         android:drawableStart="@drawable/ic_003_cd"
-        android:text="TextView"
+        android:text="@string/album"
         app:layout_constraintStart_toStartOf="@+id/tv_songTitle"
         app:layout_constraintTop_toBottomOf="@+id/tv_artistName" />
 

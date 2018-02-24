@@ -14,7 +14,7 @@ public class SongsListActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.songlist_activity);
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.container, new SongFragment())
+                .replace(R.id.container, new SongListFragment())
                 .commit();
     }
 }

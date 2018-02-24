@@ -24,7 +24,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
         switch (position) {
             case 0:
-                return new SongFragment();
+                return new SongListFragment();
             case 1:
                 return new ArtistsFragment();
             default:

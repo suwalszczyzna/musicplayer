@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context="pl.com.suwala.musicplayer.MainActivity">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:tabBackground="@color/colorPrimary"
+        app:tabTextColor="@android:color/white"
+        app:tabSelectedTextColor="@android:color/white"/>
 
 
     <android.support.v4.view.ViewPager

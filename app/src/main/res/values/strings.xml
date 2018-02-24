@@ -5,4 +5,7 @@
 
     <string name="by_song">By song</string>
     <string name="by_artist">by Artist</string>
+    <string name="song_title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
 </resources>
