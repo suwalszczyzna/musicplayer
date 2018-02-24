@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/music_library" android:title="@string/music_library" android:icon="@drawable/library_icon" />
+    <item android:id="@+id/scanning" android:title="@string/scanning" android:icon="@drawable/music_folder"/>
+    <item android:id="@+id/equalizer" android:title="@string/equalizer" android:icon="@drawable/equalizer_menu_icon"/>
+    <item android:id="@+id/settings" android:title="@string/settings" android:icon="@drawable/settings_icon"/>
+    <item android:id="@+id/about_app" android:title="@string/about_app" android:icon="@drawable/about_icon"/>
+
+
+</menu>

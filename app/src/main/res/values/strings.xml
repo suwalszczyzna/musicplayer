@@ -2,10 +2,16 @@
     <string name="app_name">Music Player</string>
     <string name="album_cover">album cover</string>
     <string name="title_activity_settings">Settings</string>
-
+    <string name="open">Open</string>
+    <string name="close">Close</string>
     <string name="by_song">By song</string>
     <string name="by_artist">by Artist</string>
     <string name="song_title">Title</string>
     <string name="artist">Artist</string>
     <string name="album">Album</string>
+    <string name="music_library">Music library</string>
+    <string name="scanning">Scanning</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="settings">Settings</string>
+    <string name="about_app">About app</string>
 </resources>
