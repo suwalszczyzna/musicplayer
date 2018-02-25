@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 
 public class SongListFragment extends Fragment {
@@ -29,27 +30,26 @@ public class SongListFragment extends Fragment {
         //Create songs
         final ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
+        songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frédéric Chopin", "Some album", R.drawable.chopin));
+        songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
+        songs.add(new Song("Cry Me a River", "Michaela Bublé", "Crazy Love"));
         songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
+        songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frédéric Chopin", "Some album", R.drawable.chopin));
+        songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
+        songs.add(new Song("Cry Me a River", "Michaela Bublé", "Crazy Love"));
         songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
+        songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frédéric Chopin", "Some album", R.drawable.chopin));
+        songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
+        songs.add(new Song("Cry Me a River", "Michaela Bublé", "Crazy Love"));
         songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
-        songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
-        songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
+        songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frédéric Chopin", "Some album", R.drawable.chopin));
+        songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
+        songs.add(new Song("Cry Me a River", "Michaela Bublé", "Crazy Love"));
+        Collections.sort(songs);
 
         SongAdapter adapter = new SongAdapter(getActivity(), songs);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 

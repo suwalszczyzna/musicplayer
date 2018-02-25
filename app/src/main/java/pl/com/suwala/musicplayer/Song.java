@@ -1,10 +1,12 @@
 package pl.com.suwala.musicplayer;
 
+import android.support.annotation.NonNull;
+
 /**
  * Created by dsuwa on 21.02.2018.
  */
 
-public class Song {
+public class Song implements Comparable<Song>{
     private String title;
     private String author;
     private String album;
@@ -58,6 +60,12 @@ public class Song {
         this.albumCover = albumCover;
     }
 
+    @Override
+    public int compareTo(@NonNull Song o) {
+
+           return title.compareTo(o.title);
+
+    }
 }
 
 

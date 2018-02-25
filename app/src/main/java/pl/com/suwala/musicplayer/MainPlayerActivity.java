@@ -32,9 +32,9 @@ public class MainPlayerActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             Bundle extras = getIntent().getExtras();
             if(extras == null) {
-                title = "?";
-                author = "?";
-                album = "?";
+                title = "Beatiful Day";
+                author = "U2";
+                album = "The Best Album";
                 coverID = R.drawable.empty_cover;
             } else {
                 title = extras.getString("songTitle");
