@@ -6,5 +6,10 @@
     <dimen name="bigger_player_buttons">48dp</dimen>
     <dimen name="list_item_height">78dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_textInList">16dp</dimen>
+    <dimen name="music_player_cover_top_margin">24dp</dimen>
+    <dimen name="descr_size">16dp</dimen>
+    <dimen name="padding_drawable">16dp</dimen>
+    <dimen name="margin_top_descr">8dp</dimen>
 
 </resources>

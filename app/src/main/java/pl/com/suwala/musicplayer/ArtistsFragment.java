@@ -31,23 +31,18 @@ public class ArtistsFragment extends Fragment {
         //Create songs
         final ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
+        songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frederic Chopin", "Some album", R.drawable.chopin));
+        songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
+        songs.add(new Song("Cry Me a River", "Michaela Buble", "Crazy Love"));
         songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
+        songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frederic Chopin", "Some album", R.drawable.chopin));
+        songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
+        songs.add(new Song("Cry Me a River", "Michaela Buble", "Crazy Love"));
         songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
-        songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
-        songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
-        songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album", R.drawable.cover));
-        songs.add(new Song("Some Day", "U25", "Some album"));
+        songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frederic Chopin", "Some album", R.drawable.chopin));
+        songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
+        songs.add(new Song("Cry Me a River", "Michaela Buble", "Crazy Love"));
+
 
         SongAdapter adapter = new SongAdapter(getActivity(), songs);
 

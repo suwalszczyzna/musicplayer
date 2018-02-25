@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
  * Created by dsuwa on 21.02.2018.
  */
 
-public class Song implements Comparable<Song>{
+public class Song{
     private String title;
     private String author;
     private String album;
@@ -60,12 +60,6 @@ public class Song implements Comparable<Song>{
         this.albumCover = albumCover;
     }
 
-    @Override
-    public int compareTo(@NonNull Song o) {
-
-           return title.compareTo(o.title);
-
-    }
 }
 
 

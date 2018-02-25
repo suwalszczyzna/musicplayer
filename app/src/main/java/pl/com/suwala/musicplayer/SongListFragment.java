@@ -41,11 +41,7 @@ public class SongListFragment extends Fragment {
         songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frédéric Chopin", "Some album", R.drawable.chopin));
         songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
         songs.add(new Song("Cry Me a River", "Michaela Bublé", "Crazy Love"));
-        songs.add(new Song("Beautiful Day", "U2", "Some album", R.drawable.cover));
-        songs.add(new Song("Prelude Op. 28, No. 15 in D-flat major", "Frédéric Chopin", "Some album", R.drawable.chopin));
-        songs.add(new Song("Foggy day", "Ella Fitzgerald", "Ella and Louis", R.drawable.ella));
-        songs.add(new Song("Cry Me a River", "Michaela Bublé", "Crazy Love"));
-        Collections.sort(songs);
+
 
         SongAdapter adapter = new SongAdapter(getActivity(), songs);
 

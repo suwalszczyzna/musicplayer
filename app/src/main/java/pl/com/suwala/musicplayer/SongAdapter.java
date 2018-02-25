@@ -1,7 +1,6 @@
 package pl.com.suwala.musicplayer;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,11 +32,11 @@ public class SongAdapter extends ArrayAdapter<Song> {
 
 
         Song currentSong = getItem(position);
-        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.song_title);
-        miwokTextView.setText(currentSong.getTitle());
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.song_author);
+        TextView titleTextView = listItemView.findViewById(R.id.song_title);
+        titleTextView.setText(currentSong.getTitle());
+        TextView defaultTextView = listItemView.findViewById(R.id.song_author);
         defaultTextView.setText(currentSong.getAuthor());
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.album_cover);
+        ImageView imageView = listItemView.findViewById(R.id.album_cover);
         imageView.setImageResource(currentSong.getAlbumCover());
 
 
