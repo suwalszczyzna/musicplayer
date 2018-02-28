@@ -13,6 +13,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import static java.security.AccessController.getContext;
+import static java.security.AccessController.getContext;
+import static java.security.AccessController.getContext;
+
 /**
  * A simple {@link Fragment} subclass.
  */
