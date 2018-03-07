@@ -11,11 +11,11 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private Context mContext;
+    private Context context;
 
     public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
-        mContext = context;
+        this.context = context;
 
     }
 
@@ -43,9 +43,9 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
         switch (position) {
             case 0:
-                return mContext.getString(R.string.by_song);
+                return context.getString(R.string.by_song);
             case 1:
-                return mContext.getString(R.string.by_artist);
+                return context.getString(R.string.by_artist);
             default:
                 return null;
         }

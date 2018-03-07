@@ -9,15 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="@string/music_library">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SongsListActivity" />
-        <activity android:name=".MainPlayerActivity" />
+        <activity android:name=".MainPlayerActivity"
+            android:label="@string/now_playing"
+            android:parentActivityName="pl.com.suwala.musicplayer.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="pl.com.suwala.musicplayer.MainActivity" />
     </application>
 
 </manifest>
