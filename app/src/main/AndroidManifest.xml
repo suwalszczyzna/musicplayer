@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"
-            android:label="@string/music_library">
+            android:label="@string/music_library"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +20,8 @@
         </activity>
         <activity android:name=".MainPlayerActivity"
             android:label="@string/now_playing"
-            android:parentActivityName="pl.com.suwala.musicplayer.MainActivity" />
+            android:parentActivityName="pl.com.suwala.musicplayer.MainActivity"
+            android:screenOrientation="portrait"/>
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
