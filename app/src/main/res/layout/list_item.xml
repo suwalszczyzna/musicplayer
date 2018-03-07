@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,10 +8,10 @@
 
     <ImageView
         android:id="@+id/album_cover"
-        android:padding="@dimen/padding_textInList"
-        android:src="@drawable/empty_cover"
         android:layout_width="@dimen/list_item_height"
-        android:layout_height="@dimen/list_item_height" />
+        android:layout_height="@dimen/list_item_height"
+        android:padding="@dimen/padding_textInList"
+        android:src="@drawable/empty_cover" />
 
     <LinearLayout
         android:id="@+id/text_container"

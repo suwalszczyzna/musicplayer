@@ -35,7 +35,7 @@ public class MainPlayerActivity extends AppCompatActivity {
 
         if (savedInstanceState == null) {
             Bundle extras = getIntent().getExtras();
-            if(extras == null) {
+            if (extras == null) {
                 title = "Beatiful Day";
                 author = "U2";
                 album = "The Best Album";
@@ -59,6 +59,7 @@ public class MainPlayerActivity extends AppCompatActivity {
 
         cover.setImageResource(coverID);
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

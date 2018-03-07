@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 int id = menuItem.getItemId();
                 switch (id) {
                     case R.id.now_playing:
-                        Intent i = new Intent (getBaseContext(), MainPlayerActivity.class);
-                        startActivity(i);
+                        Intent mainPlayerIntent = new Intent(getBaseContext(), MainPlayerActivity.class);
+                        startActivity(mainPlayerIntent);
                         break;
                 }
                 return false;
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        if(mToggle.onOptionsItemSelected(item)){
+        if (mToggle.onOptionsItemSelected(item)) {
             return true;
         }
 

@@ -4,7 +4,7 @@ package pl.com.suwala.musicplayer;
  * Created by dsuwa on 21.02.2018.
  */
 
-public class Song{
+public class Song {
     private String title;
     private String author;
     private String album;

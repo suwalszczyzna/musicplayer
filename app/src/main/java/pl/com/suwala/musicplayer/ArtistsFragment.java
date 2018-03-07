@@ -13,10 +13,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import static java.security.AccessController.getContext;
-import static java.security.AccessController.getContext;
-import static java.security.AccessController.getContext;
-
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -50,7 +46,7 @@ public class ArtistsFragment extends Fragment {
 
         SongAdapter adapter = new SongAdapter(getActivity(), songs);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 
